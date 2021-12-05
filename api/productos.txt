@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "regla",
+    "price": "123",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Sebastián Villarroel ",
+    "price": "23342",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Sebastián Villarroel ",
+    "price": "23342",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Sebastián Villarroel ",
+    "price": "325",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  },
+  {
+    "id": 5,
+    "nombre": "asasd",
+    "price": "1231456",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Sebastián Villarroel ",
+    "price": "12312324",
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-128.png"
+  }
+]

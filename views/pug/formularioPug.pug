@@ -1,4 +1,10 @@
 extends templatePug 
-    
-    block content
-        h1="Formulario de PUG" 
+
+block content
+    h1(class="text-center") Formulario de PUG
+    form(action="/api/productos", method="post")
+        input(type="text", name="nombre", placeholder="Nombre", required, class="form-control")
+        input(type="number", name="price", placeholder="Precio", required, class="form-control")
+        input(type="url", name="url", placeholder="Url image", required, class="form-control")
+        input(type="submit", value="Agregar Producto", class="btn btn-info")
+    button(type="button", onclick="location.href='/api/productos'", class="btn btn-primary") Volver al listado
