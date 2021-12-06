@@ -1,0 +1,26 @@
+<h2 class="mt-5">Listado de Productos EJS</h2>
+<%  if (producto.length > 0) { %>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% producto.forEach(function(producto) { %>
+                <tr>
+                    <td><%= producto.nombre %></td>
+                    <td><%= producto.price %></td>
+                    <td><%= producto.url %></td>
+                    
+                </tr>
+            <% }); %>
+        </tbody>
+    <%} else{
+        %>
+        <h3>No hay productos</h3>
+    } %>
+ 
