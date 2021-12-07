@@ -10,17 +10,17 @@
             </tr>
         </thead>
         <tbody>
-            <% producto.forEach(function(producto) { %>
+            <% for(element of producto) { %>
                 <tr>
-                    <td><%= producto.nombre %></td>
-                    <td><%= producto.price %></td>
-                    <td><%= producto.url %></td>
-                    
+                    <td><%= element.nombre %></td>
+                    <td><%= element.precio %></td>
+                    <td><img src="<%= element.url %>" alt="foto" width="50" height="50"></td>
                 </tr>
-            <% }); %>
+            };%>
+           
         </tbody>
-    <%} else{
-        %>
-        <h3>No hay productos</h3>
+    <% } else{ %>
+       
+        <% <h3>No hay productos</h3> %>
     } %>
  
